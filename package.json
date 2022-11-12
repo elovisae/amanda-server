@@ -1,0 +1,25 @@
+{
+  "name": "amanda-server",
+  "version": "1.0.0",
+  "description": "This is the server side for the Amanda webshop found at https://github.com/elovisae/amanda/",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elovisae/amanda-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elovisae/amanda-server/issues"
+  },
+  "homepage": "https://github.com/elovisae/amanda-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  }
+}
